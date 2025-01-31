@@ -51,6 +51,13 @@ library ieee;
   use ieee.numeric_std.all;
   
 entity thirtyOneDayMonth_tb is --notice entity is empty.  The testbench has no external connections.
+port(
+	i_A : in std_logic;
+	i_B : in std_logic;
+	i_C : in std_logic;
+	i_D : in std_logic;
+	o_Y : out std_logic
+    );	
 end thirtyOneDayMonth_tb;
 
 architecture test_bench of thirtyOneDayMonth_tb is 
